@@ -1,16 +1,8 @@
-// src/components/MultiStepForm.js
 import React, { useState } from "react";
 import Step1 from "./Step1";
 import Step2 from "./Step2";
 import Step3 from "./Step3";
-import {
-  Box,
-  Typography,
-  Stepper,
-  Step,
-  StepLabel,
-  Button,
-} from "@mui/material";
+import { Box, Typography, Stepper, Step, StepLabel } from "@mui/material";
 
 const steps = ["Personal Information", "Contact Details", "Address"];
 
